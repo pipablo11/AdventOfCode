@@ -63,7 +63,6 @@ public class code {
             String compartment1, compartment2;
 
             while (scan.hasNext()){
-                File g = new File(".//Day3//input.txt");
                 rucksack = scan.nextLine();
                 int wordLength = rucksack.length();
                 compartment1 = rucksack.substring(0, wordLength/2);
